@@ -1,5 +1,5 @@
 // gcc nome_arquivo.c -o nome_arquivo(.exe)
-// /.nome_arquivo(.exe)
+// ./nome_arquivo(.exe)
 
 //////////////////////////////////////////////////////////////
 // Programa que implementa uma lista simplesmente encadeada //
