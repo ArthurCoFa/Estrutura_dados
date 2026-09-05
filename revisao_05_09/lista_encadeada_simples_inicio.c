@@ -26,7 +26,9 @@ struct no {
                         // esse ponteiro está apontando para um endereço de memória
                         // onde está um struct no. Sem isso, o compilador não saberia
                         // o que está no endereço de memória apontado.
-    // Por fim, essa estrutura ocupa 12 bytes de memória.
+    // Por fim, essa estrutura ocupa 12 bytes de memória, porém a arquitetura
+    // Só permite que o tamanho total seja divisível por 8, então 
+    // são adicionado mais 4 bytes invisíveis para a estrutura.
 };
 
 //////////////////////////////////////////////////
